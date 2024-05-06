@@ -1,0 +1,8 @@
+CREATE DATABASE dirty_strike;
+
+CREATE TABLE player(
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    updated_at TIMESTAMP,
+    username VARCHAR(255) PRIMARY KEY NOT NULL,
+    password TEXT NOT NULL
+);
